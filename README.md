@@ -16,5 +16,6 @@ Ensured cross-browser compatibility and optimized performance for smooth user ex
 
 
 screenshot: ![Screenshot_29-3-2025_194853_127 0 0 1](https://github.com/user-attachments/assets/ed4707ba-ae14-4eeb-a844-d6a979dbd33c)
-screenshot : ![Screenshot_29-3-2025_123826_resume io](https://github.com/user-attachments/assets/b5524655-b2f0-4fd0-9266-84a9b66f8ac1)
+screenshot : ![Screenshot_29-3-2025_19499_127 0 0 1](https://github.com/user-attachments/assets/01ea70a1-c3f8-4ac7-aab2-7c2ebd35dfd3)
+
 
