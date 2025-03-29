@@ -1,2 +1,20 @@
 # TRIPMATE
-tripmate code
+Hello 👋, Welcome to My GitHub Repository !!
+Developed a responsive Instagram Clone using HTML, CSS, and JavaScript, replicating core social media features.
+
+Designed and implemented a dynamic user interface with a mobile-first approach using CSS Flexbox & Grid.
+
+Integrated image upload functionality using JavaScript's File API for frontend simulation.
+
+Implemented like and comment features with real-time DOM updates using JavaScript.
+
+Created an interactive profile page displaying user posts, bio, and follower count.
+
+Developed a search bar for filtering users and hashtags.
+
+Ensured cross-browser compatibility and optimized performance for smooth user experience.
+
+
+screenshot: ![Screenshot_29-3-2025_194853_127 0 0 1](https://github.com/user-attachments/assets/ed4707ba-ae14-4eeb-a844-d6a979dbd33c)
+screenshot : ![Screenshot_29-3-2025_123826_resume io](https://github.com/user-attachments/assets/b5524655-b2f0-4fd0-9266-84a9b66f8ac1)
+
