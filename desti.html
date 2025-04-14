@@ -306,6 +306,21 @@ footer {
         function toggleMenu() {
             document.getElementById("nav-links").classList.toggle("active");
         }
+        const searchInput = document.querySelector('.abc input');
+    const cards = document.querySelectorAll('.card');
+
+    searchInput.addEventListener('input', () => {
+        const value = searchInput.value.toLowerCase();
+
+        cards.forEach(card => {
+            const title = card.querySelector('h5').innerText.toLowerCase();
+            if (title.includes(value)) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    });
     </script>
 
 </body>
