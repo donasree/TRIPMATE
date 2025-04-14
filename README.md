@@ -1,6 +1,6 @@
 # TRIPMATE
 Hello 👋, Welcome to My GitHub Repository !!
-Developed a responsive Instagram Clone using HTML, CSS, and JavaScript, replicating core social media features.
+Developed TripMate using HTML, CSS, and JavaScript, Node.js 
 
 Designed and implemented a dynamic user interface with a mobile-first approach using CSS Flexbox & Grid.
 
