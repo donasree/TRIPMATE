@@ -14,25 +14,10 @@
 }
 
 body {
-    background-color: #718b93;
+    background-color:#d8edef;
     text-align: center;
 }
-body::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(
-          0,
-          0,
-          0,
-          0.3
-        ); /* Dark overlay for better readability */
-        backdrop-filter: blur(0.2px); /* Apply blur effect */
-        z-index: -1;
-      }
+
 
 /* Navbar Styles */
 .navbar {
@@ -407,10 +392,7 @@ footer {
         <input type="text" placeholder="🔍 Search here">
     </div>
     
-    <div class="tab-container">
-        <div class="tab active" onclick="showTab('accommodations')">🛏️ Accommodations</div>
-        <div class="tab" onclick="showTab('transport')">✈️ Transport</div>
-    </div>
+
     
     <!-- Container for Cards -->
     <div id="accommodations" class="tab-content active card-container">
@@ -423,7 +405,7 @@ footer {
                 <h5>SeaShell, Havelock</h5>
                 <p class="location">📍 Andaman & Nicobar Islands, India</p>
                 <p class="price">₹12,135 per night</p>
-        <a href="#" class="view-more">View More</a>
+        <a href="./seashell.html" class="view-more">View More</a>
             </div>
         </div>
 
@@ -436,7 +418,7 @@ footer {
                 <h5>The Okura Prestige</h5>
                 <p class="location">📍 Bangkok, Thailand</p>
                 <p class="price">₹24,175 per night</p>
-        <a href="#" class="view-more">View More</a>
+        <a href="./okura.html" class="view-more">View More</a>
             </div>
         </div>
 
@@ -449,36 +431,11 @@ footer {
                 <h5>Hôtel du Louvre</h5>
                 <p class="location">📍 Paris, France</p>
                 <p class="price">₹68,024 per night</p>
-        <a href="#" class="view-more">View More</a>
+        <a href="./hotel la.html" class="view-more">View More</a>
             </div>
         </div>
     </div>
-    <div id="transport" class="tab-content card-container">
-        <div class="card">
-            <img src="https://www.tripsavvy.com/thmb/Z-BkSXiiD0DnkY1Ep4xxdVxclKE=/3870x2575/filters:fill(auto,1)/vancouver_airport_airplane-56a9bb7b3df78cf772aa0363.jpg" alt="Plane">
-            <div class="card-body">
-                <h5>International Flights</h5>
-                <p>✈️ Direct flights to major cities worldwide</p>
-                <a href="#" class="tharuni">Explore Options</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://th.bing.com/th/id/OIP.Pv5X8J5GCM9m_cqbXf7j6wHaEL?w=280&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Train">
-            <div class="card-body">
-                <h5>Train Journeys</h5>
-                <p>🚆Scenic rail routes across continents</p>
-                <a href="#" class="tharuni">Explore Options</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://th.bing.com/th/id/OIP.iPdpNo-x8niQPxYv0rUl4AHaEK?rs=1&pid=ImgDetMain" alt="Car">
-            <div class="card-body">
-                <h5>Car Rentals</h5>
-                <p>🚗 Scenic rail routes across continents </p>
-                <a href="#" class="tharuni">Explore Options</a>
-            </div>
-        </div>
-    </div>
+   
 
     <footer>
        <p> © 2025 TripMate. All Rights Reserved.</p>
@@ -498,7 +455,21 @@ footer {
             });
             document.querySelector(`.tab-container .tab:nth-child(${tabId === 'accommodations' ? 1 : 2})`).classList.add('active');
         }
+        const searchInput = document.querySelector('.abc input');
+    const cards = document.querySelectorAll('.card');
 
+    searchInput.addEventListener('input', () => {
+        const value = searchInput.value.toLowerCase();
+
+        cards.forEach(card => {
+            const title = card.querySelector('h5').innerText.toLowerCase();
+            if (title.includes(value)) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    });
     </script>
 
 
