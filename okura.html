@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SeaShell|TripMate</title>
+  <title>Okura Prestige Hotel</title>
   <style>
     * {
       margin: 0;
@@ -60,7 +60,6 @@
     cursor: pointer;
 }
     body {
-        background-color: #d8edef;
       margin: 20px;
       font-family: Arial, sans-serif;
     }
@@ -150,6 +149,10 @@
       padding: 40px;
     }
 
+    html, body{
+        height: 100%;
+        margin: 0;
+    }
     .container {
       max-width: 900vw;
       margin: 0 auto;
@@ -158,8 +161,6 @@
       box-shadow: 0 10px 25px rgba(0,0,0,0.08);
       padding: 30px;
     }
-
-    
 
     .rating {
       color: #f97316;
@@ -251,7 +252,7 @@
     }
 
     .activities li::before {
-      content: "▪️ ";
+      content: "▪ ";
       margin-right: 5px;
       margin-bottom: 20px;
     }
@@ -332,6 +333,7 @@
       display: flex;
       height: 100vh;
       margin-top: 70px;
+      border-radius: 4px;
     }
 
     .map-container {
@@ -347,7 +349,7 @@
     }
 
     .sidebar h2 {
-      margin-top: 0;
+      padding-bottom: 10px;
     }
 
     .place {
@@ -371,8 +373,8 @@
         margin-top: 30px;
         border-radius: 10px;
       }
-
-      .tab {
+  
+    .tab {
         padding: 14px 20px;
         cursor: pointer;
         color: white;
@@ -381,53 +383,50 @@
         font-size: 16px;
         transition: background-color 0.3s ease;
       }
-
-      .tab:hover,
-      .tab.active {
+  
+      .tab:hover, .tab.active {
         background: #2c3e50;
       }
-
+  
       .tab-content {
         display: none;
         padding: 20px;
         animation: fadeIn 0.3s ease-in;
       }
-
+  
       .tab-content.active {
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
         justify-content: center;
       }
-
+  
       @keyframes fadeIn {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
+        from { opacity: 0; }
+        to { opacity: 1; }
       }
+  
       .card {
         background: white;
         border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         width: 300px;
         padding: 20px;
       }
-
+  
       .card h3 {
         margin-top: 0;
       }
-
+  
       .card p {
         color: #555;
       }
-      .foot-wrapper {
-        display: flex;
-        flex-direction: column;
-        min-height: 100%;
-      }
+    .foot-wrapper{
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+    }
+
     footer {
     background: #333; /* Dark background for contrast */
     color: white;
@@ -455,44 +454,40 @@
     </ul>
   </header>
     <div class="heading">
-        <h1>Sea Shell Havelock</h1>
-      </div>
+        <h1>The Okura Prestige Bangkok</h1>
+    </div>
 <div class="gallery">
   <div class="large-photo">
-    <img src="https://pix8.agoda.net/hotelImages/444301/-1/3108b98aa7aea54fa34b59609900396c.jpg?ca=8&ce=1&s=1024x" alt="Main">
+    <img src="https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1093996.jpg" alt="Main">
   </div>
 
   <div class="photos-grid">
-    <div class="photo"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/239893302.jpg?k=12c3fb29a5b7aee296df61a1d3b74dd8f467e093db2b5669d7c96270118bd874&o=&s=1024x" alt="1" /></div>
-    <div class="photo"><img src="https://pix8.agoda.net/hotelImages/444301/-1/0aeed8999b7e0cf3ec86769abda31926.jpg?ca=8&ce=1&s=1024x" alt="2" /></div>
-    <div class="photo"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/244911365.jpg?k=06e9bc0edd34c63a433475973a41b17128a6a0ac4d8401a7435dc92b2927fb15&o=&s=1024x" alt="3" /></div>
-    <div class="photo"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/282740100.jpg?k=11788e3b05be1fe229f81f87304cac2f85c62c9f59c39b8f6712a5fcd45cdec6&o=&s=1024x" alt="4" /></div>
-    <div class="photo"><img src="https://pix8.agoda.net/hotelImages/444301/-1/5276c01e63a15ef1ee2d4e5553b0464d.jpg?ca=8&ce=1&s=1024x" alt="5" /></div>
+    <div class="photo"><img src="https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1093995.jpg" alt="1" /></div>
+    <div class="photo"><img src="https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1093997.jpg" alt="2" /></div>
+    <div class="photo"><img src="https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1093998.jpg" alt="3" /></div>
+    <div class="photo"><img src="https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1093999.jpg" alt="4" /></div>
+    <div class="photo"><img src="https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1094000.jpg" alt="5" /></div>
     <div class="photo">
-      <img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/244914094.jpg?k=30fb7e5afbe65d0f2d7a7af59162f1dfea996a69d5d7dcbfcbf383a9e36a36c4&o=&s=1024x" alt="6" />
+      <img src="https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1094007.jpg" alt="6" />
     </div>
   </div>
 </div>
 <div class="container">
-    <h1>Sea Shell Havelock <span class="rating">★★★★★</span></h1>
+    <h1>The Okura Prestige Bangkok<span class="rating">★★★★★</span></h1>
     <p class="location">
-      2 Govind Nagar Beach, Havelock Island, Andaman and Nicobar Islands, India, 744211 - 
+      57/1 Wireless Rd., Lumpini, Pathumwan Bangkok Thailand 10330, Pathumwan, Bangkok - 
       <a href="#">See Map</a>
     </p>
   
     <p class="description">
-      Escape to the pristine beauty of Havelock Island and indulge in a memorable solo getaway at Sea Shell Havelock.
-      Immerse yourself in luxury with exclusive facilities including a refreshing swimming pool, car hire services, and a private beach.
-      Unwind in air-conditioned comfort and enjoy the stunning views of the lush gardens or scenic nature surroundings from your room.
-      With friendly service, ocean view cottages, an infinity pool, on-site scuba diving, and a variety of delicious dining options,
-      Sea Shell Havelock offers the perfect retreat for solo travelers seeking relaxation and breathtaking experiences.
+        ​The Okura Prestige Bangkok is a luxurious five-star hotel that seamlessly blends Japanese elegance with Thai hospitality. Located in the heart of Bangkok's central business district, it offers guests panoramic city views, a cantilevered infinity pool, and exquisite dining options, including Michelin-starred restaurants. Its refined design and exceptional service provide an unforgettable urban retreat
     </p>
   
     <div class="highlights">
       <h2>🌟 Highlights</h2>
       <div class="icons">
         <div class="icon-box">
-          <div class="emoji">🍽️</div>
+          <div class="emoji">🍽</div>
           <p>Great food & dining</p>
         </div>
         <div class="icon-box">
@@ -508,128 +503,118 @@
           <p>Hygiene Plus</p>
         </div>
         <div class="icon-box">
-          <div class="emoji">🛎️</div>
+          <div class="emoji">🛎</div>
           <p>Front desk [24-hour]</p>
         </div>
       </div>
     </div>
   </div>
   <div class="container">
-    <h2>Food and dining</h2>
+    <h2>Food and Dining</h2>
     <div class="section">
       <div>
         <strong>Breakfast options</strong>
         <ul>
+          <li>Served daily - 7:00 to 11:00</li>
           <li>American</li>
           <li>Asian</li>
           <li>Continental</li>
           <li>Vegetarian</li>
-          <li>Full English/Irish</li>
+          <li>Full English</li>
           <li>Buffet</li>
         </ul>
       </div>
       <div>
         <strong>Restaurants on site</strong>
         <div class="restaurant">
-          <h3>Urban Tadka</h3>
-          <p>🍴 Cuisine: Chinese</p>
+          <h3>Yamazato</h3>
+          <p>🍴 Cuisine: Japanese</p>
           <p>📖 Menu: Buffet</p>
         </div>
         <div class="restaurant">
-          <h3>Fluidz</h3>
-          <p>🍴 Cuisine: Chinese</p>
+          <h3>Elements, Inspired by Ciel Bleu</h3>
+          <p>🍴 Cuisine: French</p>
           <p>📖 Menu: Buffet</p>
         </div>
-      </div>
-      <div class="activities">
-        <strong>Things to do, ways to relax</strong>
-
-        <ul class="multi-column">
-          <li>🛶 Boating</li>
-          <li>🤿 Diving</li>
-          <li>🎣 Fishing</li>
-          <li>🦶 Foot bath</li>
-          <li>🌸 Garden</li>
-          <li🥾> Hiking</li>
-          <li>🛁 Hot tub</li>
-          <li>💆 Massage</li>
-          <li>🎉 Nightclub</li>
-          <li>🎭 On-site entertainment</li>
-          <li>🏖️ Private beach</li>
-          <li>🤿 Snorkeling</li>
-          <li>💆‍♀️ Spa</li>
-          <li>🧖‍♂️ Spa/sauna</li>
-          <li>🏊 Swimming pool</li>
-          <li>🌞 Swimming pool [outdoor]</li>
-          <li>🎫 Ticket services</li>
-          <li>🗺️ Tours</li>
-          <li>🚣 Water sports (non-motorized)</li>
-        </ul>
+        <div class="restaurant">
+          <h3>Up and Above Bar and Restaurant</h3>
+          <p>🍴 Cuisine: International</p>
+          <p>📖 Menu: Buffet</p>
+          </div>
       </div>
     </div>
   </div>
   <div class="tab-container">
-    <button class="tab active" onclick="showTab('attractions')">
-      Attractions
-    </button>
+    <button class="tab active" onclick="showTab('attractions')">Attractions</button>
     <button class="tab" onclick="showTab('eat')">Eat and Drink</button>
     <button class="tab" onclick="showTab('transport')">Transport</button>
   </div>
 
   <div id="attractions" class="tab-content active">
     <div class="card">
-      <h3>Govind Nagar beach</h3>
-      <p>🚶5 min(500m)</p>
+      <h3>SEA LIFE Bangkok Ocean World</h3>
+      <p>🚶19 min(1.6km)</p>
     </div>
     <div class="card">
-      <h3>Kalapathar Beach</h3>
-      <p>🚘10 min(3.5 km)</p>
+      <h3>Bangkok National Museum</h3>
+      <p>🚘6 min(7 km)</p>
     </div>
     <div class="card">
-      <h3>Neil's Cove</h3>
-      <p>🚘25 min(9 km)</p>
+      <h3>Grand Palace</h3>
+      <p>🚘8 min(8 km)</p>
     </div>
   </div>
 
   <div id="eat" class="tab-content">
     <div class="card">
-      <h3>Bonava Cafe & Pub</h3>
-      <p>🚘10 min(2.5km)</p>
+      <h3>Mr.Shake</h3>
+      <p>🚶3 min(250 m)</p>
     </div>
     <div class="card">
-      <h3>Black Lemon</h3>
-      <p>🚶5 min(400 m)</p>
+      <h3>Khao-Tha-Lu Coffee</h3>
+      <p>🚶5 min(450 m)</p>
     </div>
     <div class="card">
-      <h3>Fat Martin Cafe</h3>
-      <p>🚶5 min(400 m)</p>
+      <h3>Blue Cheri Coffee</h3>
+      <p>🚶6 min(500 m)</p>
     </div>
   </div>
 
   <div id="transport" class="tab-content">
     <div class="card">
-      <h3>Port-Havelock Jetty</h3>
-      <p>🚶9 min(750 m)</p>
+      <h3>Rail Stations - Pholen Chit BTS Station </h3>
+      <p>🚶3 min(300 m)</p>
     </div>
     <div class="card">
-      <h3>Local Taxi Services-Andaman Ocean cab service</h3>
-      <p>🚶2 min(150 m)</p>
+      <h3>Metro Stations - Chit Lom </h3>
+      <p>🚶7 min(600 m)</p>
     </div>
     <div class="card">
-      <h3>Bus Stations -Local bus stations</h3>
-      <p>🚘21 min(16 km)</p>
+      <h3>Bus Stations - Ekkamai Eastern Bus Terminal</h3>
+      <p>🚘7 min(8 km)</p>
     </div>
     <div class="card">
-      <h3>Veer Savarkar International Airport</h3>
-      <p>🚘21 min(15 km)</p>
+      <h3>Don Mueang International Airport</h3>
+      <p>🚘22 min(24 km)</p>
     </div>
   </div>
 
+  <script>
+    function showTab(tabId) {
+      // Remove active class from all tabs and contents
+      document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+
+      // Add active class to the selected tab and its content
+      document.querySelector(`.tab[onclick*="${tabId}"]`).classList.add('active');
+      document.getElementById(tabId).classList.add('active');
+    }
+  </script>
   <div class="map-section">
     <!-- Real Google Map Embed -->
     <div class="map-container">
       <iframe 
-  src="https://www.google.com/maps?q=Sea+Shell+Havelock,+Andaman&output=embed"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.7404090134015!2d100.5420542153249!3d13.744294601515955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29ed0d3b3bb97%3A0x2b3a20a272d84e6d!2sThe%20Okura%20Prestige%20Bangkok!5e0!3m2!1sen!2sth!4v1614973997771!5m2!1sen!2sth"
   width="100%" 
   height="100%" 
   frameborder="0" 
@@ -644,50 +629,22 @@
     <div class="sidebar">
       <h2>🎯 Places</h2>
       <div class="place">
-        <div class="place-name">Govind Nagar Beach</div>
-        <div class="distance">🚶 0.46 km from property</div>
+        <div class="place-name">Ayothaya Elephant Village</div>
+        <div class="distance">🚶3 min (250 m) from property</div>
       </div>
       <div class="place">
-        <div class="place-name">Venom Bar</div>
-        <div class="distance">🚶 0.59 km from property</div>
+        <div class="place-name">Central Friendly Village</div>
+        <div class="distance">🚶 4 min (350 m) from property</div>
       </div>
       <div class="place">
-        <div class="place-name">Shanaya's Kitchen & Bar</div>
-        <div class="distance">🚶 2.60 km from property</div>
-      </div>
-      <div class="place">
-        <div class="place-name">Vijay Nagar Beach</div>
-        <div class="distance">🚶 2.65 km from property</div>
-      </div>
-      <div class="place">
-        <div class="place-name">Kalapathar Beach</div>
-        <div class="distance">🚶 3.54 km from property</div>
+        <div class="place-name">Oxxy Dancing</div>
+        <div class="distance">🚶 5 min (400 m) from property</div>
       </div>
     </div>
   </div>
   <footer>
-    <p> ©️ 2025 TripMate. All Rights Reserved.</p>
+    <p> © 2025 TripMate. All Rights Reserved.</p>
  </footer>
  </div>
- <script>
-  function toggleMenu() {
-            document.getElementById("nav-links").classList.toggle("active");
-        }
-        function showTab(tabId) {
-          // Remove active class from all tabs and contents
-          document
-            .querySelectorAll(".tab")
-            .forEach((tab) => tab.classList.remove("active"));
-          document
-            .querySelectorAll(".tab-content")
-            .forEach((content) => content.classList.remove("active"));
-
-          // Add active class to the selected tab and its content
-          document
-            .querySelector(`.tab[onclick*="${tabId}"]`)
-            .classList.add("active");
-          document.getElementById(tabId).classList.add("active");
-        }
- </script>
 </body>
 </html>
